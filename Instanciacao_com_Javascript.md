@@ -179,10 +179,10 @@ var counter = (function(){
 // 'counter' é um objeto que neste caso deverá ser
 // métodos.
 
-counter.get(); // 0
-counter.set( 3 );
-counter.increment(); // 4
-counter.increment(); // 5
+counter.get(); // 0 \n
+counter.set( 3 ); \n
+counter.increment(); // 4 \n
+counter.increment(); // 5 \n
 
 Se tentarmos acessar counter.i do ambiente global , ela será indefinida como se situasse no interior da função chamada e não como uma propriedade do contador . Da mesma forma, se tentarmos acessar i que irá resultar em um erro como nós não declaramos i no ambiente global." "(2015, https://en.wikipedia.org/wiki/Immediately-invoked_function_expression)".
 
@@ -191,9 +191,9 @@ Todos esses tópicos abordados aqui fazem parte do ciclo de vida de qualquer pro
 
 ##Bibliografia
 
-https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Closures
-http://loopinfinito.com.br/2014/10/29/hoisting-e-escopo-em-javascript/
-https://msdn.microsoft.com/pt-br/library/bzt2dkta%28v=vs.94%29.aspx
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Closures \n
+http://loopinfinito.com.br/2014/10/29/hoisting-e-escopo-em-javascript/ \n
+https://msdn.microsoft.com/pt-br/library/bzt2dkta%28v=vs.94%29.aspx \n
 
 
 
