@@ -10,22 +10,22 @@ Javascript, Hoisting, Closure, Variáveis.
 Hoisting se traduzido literalmente significa: levantar algo através de algum meio, em JavaScript quando declaramos uma variável ou função ela sobe para o topo do escopo.
 Exemplificando:
 
->//Primeiramente vamos tentar imprimir no console uma variável que não foi declarada
->try {
->  console.log(a)
->} catch (e) {
->  console.error('A variável `a` não foi definida.')
->}
->Essa "declaração" irá retornar um erro pois a variável não existe.
+>//Primeiramente vamos tentar imprimir no console uma variável que não foi declarada 
+>try { 
+>  console.log(a) 
+>} catch (e) { 
+>  console.error('A variável `a` não foi definida.') 
+>} 
+>Essa "declaração" irá retornar um erro pois a variável não existe. 
 
 // Agora declarando uma variavel que sera chamada antes de sua instanciação
 
->try {
->  console.log(a)
->  var a = 2
->} catch (e) {
->  console.error('A variável `a` não foi definida.')
->}
+>try { 
+>  console.log(a) 
+>  var a = 2 
+>} catch (e) { 
+>  console.error('A variável `a` não foi definida.') 
+>} 
 
 Neste caso o console retornará "undefined", pois a variavel foi declarada mas não instanciada, este é um exemplo básico de hoisting com variáveis.
 Nas funções tudo ocorre um pouco diferente, pois o nome e o corpo da função serão "hoisteados" quando esta for declarada.
