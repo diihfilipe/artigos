@@ -192,7 +192,9 @@ Todos esses tópicos abordados aqui fazem parte do ciclo de vida de qualquer pro
 ##Bibliografia
 
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Closures
+
 http://loopinfinito.com.br/2014/10/29/hoisting-e-escopo-em-javascript/
+
 https://msdn.microsoft.com/pt-br/library/bzt2dkta%28v=vs.94%29.aspx
 
 
