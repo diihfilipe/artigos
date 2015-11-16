@@ -15,7 +15,7 @@ Exemplificando:
 >  console.log(a) 
 >} catch (e) { 
 >  console.error('A variável `a` não foi definida.') 
->} 
+>}  
 >//Essa "declaração" irá retornar um erro pois a variável não existe. 
 >// Agora declarando uma variavel que sera chamada antes de sua instanciação  
 >try { 
