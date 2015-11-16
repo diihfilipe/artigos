@@ -107,7 +107,7 @@ Expressões IIFE podem ser escritas de várias maneiras, porém existe uma conve
 
 Usabilidade:
 
->"var v, getValue;  
+>var v, getValue;  
 >v = 1;  
 >getValue = function() { return v; };  
 >v = 2;  
@@ -147,10 +147,10 @@ IIFEs também são úteis para o estabelecimento de métodos privados para funç
 >counter.increment(); // 4 \n  
 >counter.increment(); // 5 \n
 
-(2015, https://msdn.microsoft.com/pt-br/library/bzt2dkta%28v=vs.94%29.aspx).
 
 
-Se tentarmos acessar counter.i do ambiente global , ela será indefinida como se situasse no interior da função chamada e não como uma propriedade do contador . Da mesma forma, se tentarmos acessar i que irá resultar em um erro como nós não declaramos i no ambiente global." "(2015, https://en.wikipedia.org/wiki/Immediately-invoked_function_expression)".
+
+Se tentarmos acessar counter.i do ambiente global , ela será indefinida como se situasse no interior da função chamada e não como uma propriedade do contador . Da mesma forma, se tentarmos acessar i que irá resultar em um erro como nós não declaramos i no ambiente global." (2015, https://en.wikipedia.org/wiki/Immediately-invoked_function_expression).
 
 Todos esses tópicos abordados aqui fazem parte do ciclo de vida de qualquer programador que use não só JavaScript mas também outras linguagens. É muito importante conhecermos como funciona a linguagem em que programamos para que não haja erros em nossos projetos. As vezes nos preocupamos excessivamente em "o que a linguagem faz" do que "como ela faz" e entender essa segunda parte é essencial para dominar completamente a linguagem escolhida e construir projetos sólidos do inicio ao fim.
 
