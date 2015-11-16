@@ -17,9 +17,7 @@ Exemplificando:
 >  console.error('A variável `a` não foi definida.') 
 >} 
 >Essa "declaração" irá retornar um erro pois a variável não existe. 
-
-// Agora declarando uma variavel que sera chamada antes de sua instanciação  
-
+>// Agora declarando uma variavel que sera chamada antes de sua instanciação  
 >try { 
 >  console.log(a) 
 >  var a = 2 
