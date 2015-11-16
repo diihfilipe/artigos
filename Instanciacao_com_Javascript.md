@@ -42,9 +42,9 @@ Neste caso o console não imprimirá erros, pois, como foi dito a função e seu
 
 ##Closures
 
-"Closures(fechamentos) são funções que se referem a variáveis livres(independentes)."(2015, https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Closures)  
+"Closures(fechamentos) são funções que se referem a variáveis livres(independentes)." (2015, https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Closures).  
 As closures nos permitem associar dados com uma função que usará tais dados(tal como na orientação a objetos), onde os objetos por sua vez nos permitem associar dados utilizando métodos.
-Usaremos um exemplo de um artigo do site Developer Mozilla. "(2015, https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Closures)".  
+Usaremos um exemplo de um artigo do site Developer Mozilla. (2015, https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Closures).  
 
 >function makeSizer(size) {  
 >  return function() {  
@@ -81,7 +81,7 @@ Uma das utilidades das closures no JavaScript é emular métodos privados, ou se
 >alert(Counter1.value()); /* Alerts 1 */  
 >alert(Counter2.value()); /* Alerts 0 */".
 
-"(2015, https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Closures)".
+(2015, https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Closures).
 
 ##Variável Global
 
