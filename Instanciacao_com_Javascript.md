@@ -44,7 +44,7 @@ Neste caso o console não imprimirá erros, pois, como foi dito a função e seu
 
 "Closures(fechamentos) são funções que se referem a variáveis livres(independentes)." (2015, https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Closures).  
 As closures nos permitem associar dados com uma função que usará tais dados(tal como na orientação a objetos), onde os objetos por sua vez nos permitem associar dados utilizando métodos.
-Usaremos um exemplo de um artigo do site Developer Mozilla. (2015, https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Closures).  
+Usaremos um exemplo de um artigo do site Developer Mozilla.  
 
 >function makeSizer(size) {  
 >  return function() {  
@@ -145,7 +145,10 @@ IIFEs também são úteis para o estabelecimento de métodos privados para funç
 >counter.get(); // 0 \n  
 >counter.set( 3 ); \n  
 >counter.increment(); // 4 \n  
->counter.increment(); // 5 \n  
+>counter.increment(); // 5 \n
+
+(2015, https://msdn.microsoft.com/pt-br/library/bzt2dkta%28v=vs.94%29.aspx).
+
 
 Se tentarmos acessar counter.i do ambiente global , ela será indefinida como se situasse no interior da função chamada e não como uma propriedade do contador . Da mesma forma, se tentarmos acessar i que irá resultar em um erro como nós não declaramos i no ambiente global." "(2015, https://en.wikipedia.org/wiki/Immediately-invoked_function_expression)".
 
