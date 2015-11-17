@@ -60,7 +60,7 @@ function makeSizer(size) {
 Uma das utilidades das closures no JavaScript é emular métodos privados, ou seja criar métodos que só poderão ser chamados por outros métodos que estejam dentro da mesma classe. Obviamente a utilidade desse tipo de declaração é para criar restrições de acesso ao código, de forma que determinados métodos não fiquem "soltos" no nosso código.
 
 ```javascript
-"var makeCounter = function() {  
+var makeCounter = function() {  
   var privateCounter = 0;  
   function changeBy(val) {  
     privateCounter += val;  
@@ -109,28 +109,33 @@ No exemplo acima será impresso no console "Eu sou uma variável global" e logo 
 
 Em Javascript é comum encontrarmos funções que recebem alguns parametros especificos, como por exemplo:  
 
->function variaveisPorParametros(parametro1, parametro2 parametro99999) {  
->  somaParametros = parametro1 + parametro2 + parametro99999;  
->  return somaParametros;  
->}
+```javascript
+function variaveisPorParametros(parametro1, parametro2 parametro99999) {  
+  somaParametros = parametro1 + parametro2 + parametro99999;  
+  return somaParametros;  
+}
+```
 
 Para utilizar essa passagem de variaveis por parametros, existem algumas regras básicas, são elas:
 
 1 - As definições das funções em JavaScript não especificam os tipos de dados para os parametros.  
 
->// procure usar nomes de parametros sugestivos  
-> function somaNumeros(num1, num2){  
->  total = num1 + num2;  
->  return total;  
->}  
->var a = 10;  
->var b = 15;  
->somaNumeros(a, b);  
->// o resultado será 25  
+```javascript
+// procure usar nomes de parametros sugestivos  
+ function somaNumeros(num1, num2){  
+  total = num1 + num2;  
+  return total;  
+}  
+var a = 10;  
+var b = 15;  
+somaNumeros(a, b);  
+// o resultado será 25  
+```
 
 2 - As funções em JavaScript não executam verificação de tipo(integer, float, boolean, etc) sobre os argumentos passados.  
 
-```javascript// se instanciarmos variaveis com tipos diferentes do esperado não receberemos o resultado esperado  
+```javascript
+// se instanciarmos variaveis com tipos diferentes do esperado não receberemos o resultado esperado  
  function somaNumeros(num1, num2){  
   total = num1 + num2;  
   return total;  
