@@ -87,7 +87,7 @@ No JavaScript temos dois tipos de variáveis: Global e local. As variáveis glob
 
 >var global = "Eu sou uma variavel global"; // variavel global  
 >function varLocal () {  
->  var global = "Eu sou uma variavel local"; // ambas são variáveis locais  
+>  var global = "Eu sou uma variavel local"; // variavel local  
 >  console.log(global);  
 >}  
 >document.write(varLocal);  
