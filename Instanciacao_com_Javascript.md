@@ -85,7 +85,7 @@ Counter1.increment();
 alert(Counter1.value()); /* Alerts 2 */  
 Counter1.decrement();  
 alert(Counter1.value()); /* Alerts 1 */  
-alert(Counter2.value()); /* Alerts 0 */".
+alert(Counter2.value()); /* Alerts 0 */
 ```
 
 (2015, https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Closures).
