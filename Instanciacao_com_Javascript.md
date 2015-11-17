@@ -96,7 +96,60 @@ No exemplo acima será impresso no console "Eu sou uma variável global" e logo 
 
 ## Variáveis por parâmetro
 
+Em Javascript é comum encontrarmos funções que recebem alguns parametros especificos, como por exemplo:  
 
+>function variaveisPorParametros(parametro1, parametro2 parametro99999) {  
+>  somaParametros = parametro1 + parametro2 + parametro99999;  
+>  return somaParametros;  
+>}
+
+Para utilizar essa passagem de variaveis por parametros, existem algumas regras básicas, são elas:
+
+1 - As definições das funções em JavaScript não especificam os tipos de dados para os parametros.  
+
+>// procure usar nomes de parametros sugestivos  
+> function somaNumeros(num1, num2){  
+>  total = num1 + num2;  
+>  return total;  
+>}  
+>var a = 10;  
+>var b = 15;  
+>somaNumeros(a, b);  
+>// o resultado será 25  
+
+2 - As funções em JavaScript não executam verificação de tipo(integer, float, boolean, etc) sobre os argumentos passados.  
+
+>// se instanciarmos variaveis com tipos diferentes do esperado não receberemos o resultado esperado  
+> function somaNumeros(num1, num2){  
+>  total = num1 + num2;  
+>  return total;  
+>} 
+>var a = "Teste";  
+>var b = "Soma";  
+>somaNumeros(a, b);  
+>// o resultado sera "TesteSoma"
+
+3 - As funções em JavaScript não verificam o número de argumentos recebidos.  
+
+> function somaNumeros(num1, num2){  
+>  total = num1 + num2;  
+>  return total;  
+>} 
+>var a = 10;  
+>somaNumeros(a);  
+>// o resultado sera um erro NaN  
+
+Isso acontece porque quando uma função é chamada e algum argumento está faltando, este argumento será setado por padrão como undefined(o que no exemplo explica o erro pois um numero não pode ser somado com undefined), no caso oposto, quando existem mais parametros do que os esperados, os parametros que excedem são desconsiderados.
+
+>function somaNumeros(num1, num2){  
+>    total = num1 + num2;  
+>    return total;  
+>}  
+>var a = 10;  
+>var b = 20;  
+>var c = 30;  
+>somaNumeros(a, c, b);  
+>// o resultado será 40 pois a função irá considerar apenas os dois primeiros parametros  
 
 ## Instanciação usando IIFE
 
