@@ -192,7 +192,7 @@ IIFEs também são úteis para o estabelecimento de métodos privados para funç
 >  };  
 >})();  
 >// 'counter' é um objeto que neste caso deverá ser  
->// métodos.
+>// métodos  
 >counter.get(); // 0   
 >counter.set( 3 );   
 >counter.increment(); // 4  
