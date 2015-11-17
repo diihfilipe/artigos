@@ -193,13 +193,10 @@ IIFEs também são úteis para o estabelecimento de métodos privados para funç
 >})();  
 >// 'counter' é um objeto que neste caso deverá ser  
 >// métodos.
->counter.get(); // 0 \n  
->counter.set( 3 ); \n  
->counter.increment(); // 4 \n  
->counter.increment(); // 5 \n
-
-
-
+>counter.get(); // 0   
+>counter.set( 3 );   
+>counter.increment(); // 4  
+>counter.increment(); // 5  
 
 Se tentarmos acessar counter.i do ambiente global , ela será indefinida como se situasse no interior da função chamada e não como uma propriedade do contador . Da mesma forma, se tentarmos acessar i que irá resultar em um erro como nós não declaramos i no ambiente global." (2015, https://en.wikipedia.org/wiki/Immediately-invoked_function_expression).
 
