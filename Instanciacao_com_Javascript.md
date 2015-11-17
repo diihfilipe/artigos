@@ -18,7 +18,7 @@ try {
   console.error('A variável `a` não foi definida.')  
 }  
 //Essa "declaração" irá retornar um erro pois a variável não existe.  
-// Agora declarando uma variavel que sera chamada antes de sua instanciação  
+//Agora declarando uma variavel que sera chamada antes de sua instanciação  
 try {  
   console.log(a)  
   var a = 2  
@@ -120,7 +120,7 @@ Para utilizar essa passagem de variaveis por parametros, existem algumas regras 
 1 - As definições das funções em JavaScript não especificam os tipos de dados para os parametros.  
 
 
-##### procure usar nomes de parametros sugestivos  
+##### Procure usar nomes de parametros sugestivos  
 ```js
 function somaNumeros(num1, num2){  
   total = num1 + num2;  
@@ -134,7 +134,7 @@ somaNumeros(a, b);
 
 2 - As funções em JavaScript não executam verificação de tipo(integer, float, boolean, etc) sobre os argumentos passados.  
 
-##### se instanciarmos variaveis com tipos diferentes do esperado não receberemos o resultado esperado  
+##### Se instanciarmos variaveis com tipos diferentes do esperado não receberemos o resultado esperado  
 ```js
  function somaNumeros(num1, num2){  
   total = num1 + num2;  
