@@ -9,7 +9,7 @@ Javascript, Hoisting, Closure, Variáveis.
 
 Hoisting se traduzido literalmente significa: levantar algo através de algum meio, em JavaScript quando declaramos uma variável ou função ela sobe para o topo do escopo.  
 
-Exemplificando:
+Exemplificando:  
 
 >//Primeiramente vamos tentar imprimir no console uma variável que não foi declarada  
 >try {  
