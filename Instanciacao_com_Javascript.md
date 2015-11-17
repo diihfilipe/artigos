@@ -123,7 +123,7 @@ Para utilizar essa passagem de variaveis por parametros, existem algumas regras 
 > function somaNumeros(num1, num2){  
 >  total = num1 + num2;  
 >  return total;  
->} 
+>}  
 >var a = "Teste";  
 >var b = "Soma";  
 >somaNumeros(a, b);  
@@ -134,7 +134,7 @@ Para utilizar essa passagem de variaveis por parametros, existem algumas regras 
 > function somaNumeros(num1, num2){  
 >  total = num1 + num2;  
 >  return total;  
->} 
+>}  
 >var a = 10;  
 >somaNumeros(a);  
 >// o resultado sera um erro NaN  
